@@ -1,0 +1,18 @@
+.footer table tr {
+    background: #fff;
+    color: #fff;
+}
+
+.footer table tr th,
+.footer table tr td {
+    width: 100%;
+    padding: 7px 10px;
+    color: #000;
+    font-weight: 600;
+}
+
+.footer table tr td textarea {
+    border: none;
+    background: transparent;
+    resize: none;
+}

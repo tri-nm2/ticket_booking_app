@@ -1,0 +1,38 @@
+td {
+  width: 40px;
+  font-weight: 600;
+  font-size: 1em;
+  padding-top: 7px;
+  height: 24px;
+  color: #fff;
+}
+
+.seat {
+  width: 13px;
+  margin-right: 14px;
+  cursor: pointer;
+  border: 1px solid red;
+  background: yellow;
+}
+
+.seat::before {
+  content: "";
+  width: 25px;
+  height: 18px;
+  border-radius: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  border: 3px solid #ff9800;
+  box-shadow: inset 0px 2px 3px 0px rgb(0 0 0 / 30%),
+    0px 1px 0px 0px rgb(255 255 255 / 80%);
+  background-color: #ffffff;
+}
+
+.reserveSeat::before {
+  background-color: red!important;
+}
+
+.selectedSeat::before {
+  background-color: green!important;
+}

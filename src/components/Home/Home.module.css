@@ -1,0 +1,27 @@
+.home {
+    background-image: url(../../assets/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1px 0px;
+}
+
+.home h1 {
+    color: #fff;
+    font-size: 3.5vw;
+    font-weight: 600;
+    text-shadow: 4px 3px 1px rgb(0 0 0 / 22%);
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0.8em 1vw 0.9em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.home p {
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 1.7;
+    padding: 0 1em;
+}

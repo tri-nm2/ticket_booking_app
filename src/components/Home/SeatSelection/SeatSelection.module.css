@@ -1,0 +1,10 @@
+.main {
+    width: 700px;
+    margin: 0 auto;
+    background: rgba(128, 128, 128, 0.34);
+    padding: 3.5vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
